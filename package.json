@@ -1,0 +1,23 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osogrizz/frontend-masters-react.git"
+  },
+  "author": "Leo Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osogrizz/frontend-masters-react/issues"
+  },
+  "homepage": "https://github.com/osogrizz/frontend-masters-react#readme",
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
