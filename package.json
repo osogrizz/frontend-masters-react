@@ -5,6 +5,7 @@
   "main": "App.js",
   "scripts": {
     "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/osogrizz/frontend-masters-react#readme",
   "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
     "prettier": "1.19.1"
   }
 }
